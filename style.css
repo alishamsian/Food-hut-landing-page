@@ -27,8 +27,7 @@ img {
 body {
   font-family: "Sofia Sans", serif;
   color: #fff;
-  background: #000
-    linear-gradient(180deg, rgb(245 71 72 / 15%) 0%, rgb(245 71 72 / 9%) 100%);
+  background: #000000e6;
 }
 
 /* header */
@@ -114,7 +113,7 @@ header .navbar .nav-links a.active {
   margin-right: 0.5rem;
 }
 
-.hero h1 {
+.hero-content h1 {
   font-size: 3rem;
   font-weight: 900;
   margin-bottom: 1rem;
@@ -129,13 +128,13 @@ header .navbar .nav-links a.active {
   border-bottom: 2px solid #f54748;
 }
 
-.hero p {
+.hero-content p {
   font-size: 1.1rem;
   font-weight: 300;
   margin-bottom: 2rem;
 }
 
-.hero .search-box {
+.hero-content .search-box {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -143,7 +142,7 @@ header .navbar .nav-links a.active {
   max-width: 350px;
 }
 
-.hero .search-box input {
+.hero-content .search-box input {
   width: 100%;
   padding: 0.7rem 1rem;
   border: 1px solid #cccccc63;
@@ -157,7 +156,7 @@ header .navbar .nav-links a.active {
   -o-border-radius: 2rem;
 }
 
-.hero .search-box button {
+.hero-content .search-box button {
   background: #fdce77;
   color: #000;
   padding: 0.5rem;
@@ -175,7 +174,7 @@ header .navbar .nav-links a.active {
   align-items: center;
 }
 
-.hero .search-box button:hover {
+.hero-content .search-box button:hover {
   background: #f54748;
   color: #fff;
 }
@@ -338,4 +337,52 @@ header .navbar .nav-links a.active {
   -o-border-radius: 2rem;
   border: none;
   margin-bottom: -2.5rem;
+}
+
+.menu-item .order-btn:hover {
+  background: #fff;
+  color: #f54748;
+}
+
+.servises-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  margin-top: 10rem;
+}
+
+
+
+.servises-section .hero-content {
+  width: 50%;
+}
+
+.servises-section .hero-content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.servises-section .hero-content p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+.servises-section .servises-box {
+  display: flex;
+  gap: 4rem;
+  margin: 2.5rem 0;
+}
+
+.servises-section .servises-box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.servises-section .servises-box ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }

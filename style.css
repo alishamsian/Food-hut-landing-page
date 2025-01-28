@@ -386,3 +386,57 @@ header .navbar .nav-links a.active {
   align-items: center;
   gap: 0.5rem;
 }
+
+/* products section */
+
+.product-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 7rem;
+}
+
+.product-section h2{
+  font-size: 2.5rem;
+  width: 45%;
+  text-align: center;
+}
+
+.product-section .filters{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-section .filter {
+  border: 1px solid #e2e2e2a9;
+  padding: 10px 20px;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  cursor: pointer;
+}
+
+.product-section .filter.active {
+  background: #f54748;
+  border: 1px solid #f54748;
+}
+
+.product-section .filter.active a {
+  color: #000;
+}
+
+.product-section .menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 8rem;
+}
+
+
+

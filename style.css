@@ -354,7 +354,8 @@ header .navbar .nav-links a.active {
 
 
 
-.servises-section .hero-content {
+.servises-section .hero-content
+ {
   width: 50%;
 }
 
@@ -438,5 +439,61 @@ header .navbar .nav-links a.active {
   margin-top: 8rem;
 }
 
+/* mobile app section */
 
+.mobile-app {
+ 
+  margin-top: 7rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fdc55e0d 73.18%);
+}
+
+.mobile-app .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.mobile-app .hero-content{
+  width: 60%;
+}
+
+.mobile-app .hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.mobile-app .hero-content p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+.mobile-app .servises-box {
+  display: flex;
+  gap: 4rem;
+  margin: 2.5rem 0;
+}
+
+.mobile-app .servises-box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mobile-app .servises-box ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.download-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.download-box li {
+  cursor: pointer;
+}
 

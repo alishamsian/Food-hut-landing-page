@@ -431,7 +431,7 @@ header .navbar .nav-links a.active {
   color: #000;
 }
 
-.product-section .menu-items {
+.menu-items {
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -636,10 +636,14 @@ header .navbar .nav-links a.active {
   .menu-items {
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    height: 470px;
+    overflow: auto;
+    padding-top: 3rem;
   }
   .menu-item {
     max-width: 320px;
-    margin: 3.5rem 0;
+    margin: 4rem 0;
   }
   .servises-section {
     flex-direction: column;
@@ -656,6 +660,14 @@ header .navbar .nav-links a.active {
     flex-direction: column;
     gap: 2rem;
   }
+
+  .product-section .menu-items{
+    width: 100%;
+    height: 470px;
+    overflow: auto;
+    padding-top: 32rem;
+  }
+
   .mobile-app .container {
     flex-direction: column-reverse;
     padding-bottom: 2rem;
@@ -670,7 +682,9 @@ header .navbar .nav-links a.active {
     width: 70%;
   }
 
-  .filters .filter:nth-last-child(even) {
-    display: none;
-  }
+   .filters {
+      width: 100%;
+      overflow: auto;
+      padding-bottom: 2rem;
+   }
 }
